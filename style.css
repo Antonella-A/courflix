@@ -1,0 +1,182 @@
+body, html {
+  margin: 0px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+  top: 0px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  background-color: #000;
+  opacity: 0.5;
+  top: 0px;
+}
+
+#logo {
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 18px 0px 45px;
+}
+
+#banner {
+  background-image: url("https://puu.sh/DqAF7/8995008171.png");
+  height: 500px;
+  background-size: cover;
+}
+#banner h4, #banner h5, #banner h3, #banner h2, #banner h1, #banner p {
+  margin: 0px 0px 0px 50px;
+}
+#banner h3 {
+  padding-top: 140px;
+}
+#banner h5 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#maintitle p {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#sectionone {
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.list {
+  margin-bottom: 40px;
+}
+
+.imagecontainer {
+  display: flex;
+}
+.imagecontainer img {
+  margin-right: 4px;
+}
+
+#sectiononelistado {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+#bannerselected {
+  background-image: url("breakingbad-background.jpg");
+  height: 440px;
+  background-size: 870px;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 60px;
+}
+#bannerselected h4, #bannerselected h5, #bannerselected h3, #bannerselected h2, #bannerselected h1, #bannerselected p {
+  margin: 0px 0px 0px 50px;
+}
+#bannerselected #maintitles p {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+#bannerselected #maintext p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+#bannerselected #secondtext p {
+  margin-left: 50px;
+  color: #d6d6d6;
+  font-size: 14px;
+}
+#bannerselected #secondtext span {
+  font-weight: 800;
+}
+
+#subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+}
+#subtitle span {
+  color: green;
+}
+
+.buttons {
+  margin-left: 50px;
+}
+
+.button {
+  background-color: #979797;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: 24px 0px 20px 0px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+
+  .overlay {
+    opacity: 1;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
+  #banner {
+    background-image: url("assets-tp/black-summer-background.jpg");
+    height: 500px;
+    background-size: cover;
+  }
+  #banner h4, #banner h5, #banner h3, #banner h2, #banner h1, #banner p {
+    margin: 0px 0px 0px 20px;
+  }
+  #banner #maintitle p {
+    font-size: 20px;
+  }
+  #banner #maintext {
+    display: none;
+  }
+
+  .buttons {
+    margin-left: 20px;
+  }
+
+  #sectionone {
+    margin-left: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
